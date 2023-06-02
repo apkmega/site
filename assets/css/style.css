@@ -1312,7 +1312,7 @@ Game Details Style
 
 .game-details .content {
   border-radius: 23px;
-  padding: 30px;
+  padding: 0px;
 }
 
 .game-details .content .left-info {
