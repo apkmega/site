@@ -1393,6 +1393,15 @@ Game Details Style
   width: 100%;
 } 
 
+@media (max-width: 575px) {
+	.game-details .main-border-button a {
+	    font-size: 12px;
+    display: inline-flex;
+    text-align: left;
+	}
+}
+
+
 /* 
 ---------------------------------------------
 Other Related Style
