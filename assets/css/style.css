@@ -115,7 +115,7 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background: #121416;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -130,7 +130,7 @@ body .page-content {
 
 p {
      font-size: 14px;
-    color: #fff;
+    color: #ededed;
     line-height: 30px;
     margin-bottom: 0px;
 }
