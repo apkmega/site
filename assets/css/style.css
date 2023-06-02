@@ -120,17 +120,19 @@ body {
 }
 
 body .page-content {
-  margin-top: 110px;
-  background-color: #27292a;
-  padding: 60px;
-  border-radius: 23px;
+     margin-top: 110px;
+    box-shadow: 0 .25rem 1.5rem 1px rgba(0,0,0,.03);
+    margin-bottom: 1.5rem;
+    background-color: #1b1d1f;
+    padding: 60px;
+    border-radius: 23px;
 }
 
 p {
-  font-size: 15px;
-  color: #666;
-  line-height: 30px;
-  margin-bottom: 0px;
+     font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 0px;
 }
 
 ::selection {
@@ -169,19 +171,20 @@ p {
 }
 
 .main-border-button a {
-  font-size: 14px;
-  color: #ec6090;
-  background-color: transparent;
-  border: 1px solid #ec6090;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 25px;
-  font-weight: 400;
-  text-transform: capitalize;
-  letter-spacing: 0.5px;
-  transition: all .3s;
-  position: relative;
-  overflow: hidden;
+           font-size: 14px;
+    color: #fff;
+    opacity: 1!important;
+    padding: 12px 30px;
+    background-color: #45c368;
+    background-image: linear-gradient(180deg,#4CCB70 0%,#3DBA60 100%);
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
 }
 
 .main-border-button a:hover {
@@ -1302,7 +1305,6 @@ Game Details Style
 .game-details .content {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
 }
 
 .game-details .content .left-info {
