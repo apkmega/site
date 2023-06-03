@@ -384,7 +384,7 @@ Header Style
 }
 
 .header-area .main-nav #search input {
-  background-color: #27292a;
+  background-color: #1b1d1f;
   height: 46px;
   border-radius: 23px;
   border: none;
@@ -448,23 +448,23 @@ Header Style
 }
 
 .header-area .main-nav .nav li a {
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  text-transform: capitalize;
-  color: #666;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  border: transparent;
-  padding: 13px 10px;
-  border-radius: 18px;
-  letter-spacing: .3px;
+     display: block;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #666;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: transparent;
+    padding: 13px 10px;
+    border-radius: 18px;
+    letter-spacing: .3px;
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
+  background-color: #1b1d1f;
   padding: 8px 10px 8px 20px;
   border-radius: 23px;
 }
