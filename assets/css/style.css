@@ -1650,8 +1650,10 @@ body {
 
 @media (max-width: 767px) {
   body .page-content {
-    padding: 20px;
+       padding: 15px;
+    background-color: #121416;
   }
+	p{font-size:13px;}
   .main-banner {
     text-align: center;
   }
