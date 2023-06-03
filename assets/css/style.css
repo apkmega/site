@@ -353,7 +353,7 @@ section {
 }
 
 .background-header {
-  background-color: #27292a !important;
+  background-color: #1b1d1f !important;
   height: 70px !important;
   position: fixed !important;
   top: 0 !important;
@@ -541,7 +541,7 @@ section {
   -o-transition: .4s;
   -webkit-transition: .4s;
   transition: .4s;
-  background-color: #e75e8d;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -563,7 +563,7 @@ section {
   -o-transition: .4s;
   -webkit-transition: .4s;
   transition: .4s;
-  background-color: #e75e8d;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   height: 2px;
@@ -1356,7 +1356,7 @@ body {
 @media (max-width:992px) {
   .header-area {
     top: 0;
-    background-color: #27292a;
+    background-color: #1b1d1f;
     padding: 0 15px;
     height: 80px;
     box-shadow: none;
