@@ -163,14 +163,14 @@ body .page-content {
   margin-bottom: 1.5rem;
   background-color: #1b1d1f;
   padding: 60px;
-  border-radius: 23px
+  border-radius: .125rem
 }
 
 .main-border-button a,
 .main-button a {
   padding: 12px 30px;
   display: inline-block;
-  border-radius: 25px;
+  border-radius: .75rem;
   transition: .3s;
   position: relative;
   color: #fff;
