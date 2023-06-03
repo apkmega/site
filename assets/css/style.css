@@ -193,7 +193,7 @@ p {
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #44c268;
   color: #fff
 }
 
@@ -754,7 +754,7 @@ section {
 .most-popular .item ul li:last-child i,
 .other-games ul li:last-child i,
 footer p a:hover {
-  color: #ec6090
+  color: #44c268
 }
 
 .gaming-library .main-button,
@@ -1117,7 +1117,7 @@ footer p a {
 .game-details .content .right-info ul li i {
   display: block;
   margin-bottom: 12px;
-  color: #ec6090
+  color: #44c268
 }
 
 .game-details .main-border-button {
