@@ -163,7 +163,7 @@ body .page-content {
   margin-bottom: 1.5rem;
   background-color: #1b1d1f;
   padding: 60px;
-  border-radius: .125rem
+  border-radius: 1.125rem
 }
 
 .main-border-button a,
@@ -1081,7 +1081,7 @@ footer p a {
 .game-details .content .left-info,
 .game-details .content .right-info {
   background-color: #ffffff08;
-  border-radius: .5rem;
+  border-radius: 1.125rem;
   padding: 30px;
   margin-bottom: 30px
 }
