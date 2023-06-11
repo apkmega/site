@@ -1,312 +1,312 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    background-color: #111118;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background-color: #111118;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-    -webkit-transition: all .7s ease;
-    -moz-transition: all .7s ease;
-    -ms-transition: all .7s ease;
-    -o-transition: all .7s ease;
-    transition: all .7s ease
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all .7s ease;
+	-moz-transition: all .7s ease;
+	-ms-transition: all .7s ease;
+	-o-transition: all .7s ease;
+	transition: all .7s ease
 }
 
 a:hover,
 a:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-transition: all .7s ease;
-    -moz-transition: all .7s ease;
-    -ms-transition: all .7s ease;
-    -o-transition: all .7s ease;
-    transition: all .7s ease
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: all .7s ease;
+	-moz-transition: all .7s ease;
+	-ms-transition: all .7s ease;
+	-o-transition: all .7s ease;
+	transition: all .7s ease
 }
 
 a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
 }
 
 .header {
-    height: 120px;
-    text-align: center;
-    background-color: #9248e1;
-    background-image: linear-gradient(180deg, #9B54E8 0%, #7126C1 100%);
-    box-shadow: 0 .25rem .5rem 0 rgba(146, 72, 225, .3)
+	height: 120px;
+	text-align: center;
+	background-color: #9248e1;
+	background-image: linear-gradient(180deg, #9B54E8 0%, #7126C1 100%);
+	box-shadow: 0 .25rem .5rem 0 rgba(146, 72, 225, .3)
 }
 
 .header svg {
-    color: #fff;
-    font-size: 62px;
-    vertical-align: middle;
-    margin-top: 25px
+	color: #fff;
+	font-size: 62px;
+	vertical-align: middle;
+	margin-top: 25px
 }
 
 .main {
-    padding: 10px;
-    width: 100%
+	padding: 10px;
+	width: 100%
 }
 
 .search input {
-    color: #8e94a9;
-    height: 40px;
-    outline: none;
-    background-color: #181824;
-    border-radius: 0.3125rem;
-    line-height: 32px;
-    margin-bottom: 10px;
-    width: 100%;
-    font-size: 15px;
-    padding: 15px;
-    border: 1px solid rgba(0, 0, 0, .125);
+	color: #8e94a9;
+	height: 40px;
+	outline: none;
+	background-color: #181824;
+	border-radius: 0.3125rem;
+	line-height: 32px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 15px;
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, .125);
 }
 
 .apps ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
+	margin: 0;
+	padding: 0;
+	list-style: none
 }
 
 .apps ul li a {
-    line-height: 18px;
-    display: block;
-    height: 70px;
-    border-bottom: 1px solid #15161a;
-    padding: 5px 10px
+	line-height: 18px;
+	display: block;
+	height: 70px;
+	border-bottom: 1px solid #15161a;
+	padding: 5px 10px
 }
 
 .AppContainer {
-    position: relative;
-    background-color: #181824;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.3125rem;
-    margin-bottom: 10px;
+	position: relative;
+	background-color: #181824;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.3125rem;
+	margin-bottom: 10px;
 }
 
 .avatar img {
-    float: left;
-    height: 42px;
-    width: 42px;
-    margin-top: 8px;
-    margin-right: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px
+	float: left;
+	height: 42px;
+	width: 42px;
+	margin-top: 8px;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px
 }
 
 .app {
-    color: #fff;
-    font-size: 16px
+	color: #fff;
+	font-size: 16px
 }
 
 .name {
-    margin-top: 2px;
-    font-size: 11px;
-    color: #8e94a9;
+	margin-top: 2px;
+	font-size: 11px;
+	color: #8e94a9;
 }
 
 .description {
-    font-size: 11px;
-    color: #8e94a9;
+	font-size: 11px;
+	color: #8e94a9;
 }
 
 .righticon {
-    float: right;
-    margin-top: -30px;
-    color: #fff
+	float: right;
+	margin-top: -30px;
+	color: #fff
 }
 
 .status-apk {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #9149df;
-    font-weight: 500;
-    font-size: 13px;
-    position: relative;
-    box-sizing: border-box;
-    background-color: rgb(109 109 109 / 13%);
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 20px;
-    padding: 0 4px;
-    height: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #9149df;
+	font-weight: 500;
+	font-size: 13px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: rgb(109 109 109 / 13%);
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 20px;
+	padding: 0 4px;
+	height: 20px;
 }
 
 .footer {
-    background: #181824;
-    position: fixed;
-    width: 100%;
-    height: 55px;
-    bottom: 0;
-    text-align: center
+	background: #181824;
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	bottom: 0;
+	text-align: center
 }
 
 .footer svg {
-    color: #fff;
-    vertical-align: middle;
-    font-size: 28px;
-    margin-top: 10px
+	color: #fff;
+	vertical-align: middle;
+	font-size: 28px;
+	margin-top: 10px
 }
 
 .phone {
-    background: url(../img/phone.png) no-repeat;
-    width: 210px;
-    height: 183px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px
+	background: url(../img/phone.png) no-repeat;
+	width: 210px;
+	height: 183px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px
 }
 
 .avatar-modal img {
-    width: 33px;
-    height: 33px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
-    border-radius: 25%;
-    border-radius: 20%
+	width: 33px;
+	height: 33px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border-radius: 25%;
+	border-radius: 20%
 }
 
 .name-modal {
-    margin-top: 2px;
-    color: #fff;
-    font-size: 8px;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
+	margin-top: 2px;
+	color: #fff;
+	font-size: 8px;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
 }
 
 .icon-modal {
-    margin-top: 43px;
-    margin-left: 14px;
-    width: 50px;
-    text-align: center
+	margin-top: 43px;
+	margin-left: 14px;
+	width: 50px;
+	text-align: center
 }
 
 .modal-body h1 {
-    font-size: 26px;
-    font-weight: 600;
-    padding: 15px 0
+	font-size: 26px;
+	font-weight: 600;
+	padding: 15px 0
 }
 
 .modal-body p {
-    font-size: 13px
+	font-size: 13px
 }
 
 .modal-btn {
-    padding-bottom: 30%
+	padding-bottom: 30%
 }
 
 .modal-btn a {
-    display: inline-block;
-    color: #fff !important;
-    background: linear-gradient(-47deg, #31d7e8 0%, #2846dc 100%);
-    padding: 15px 0;
-    background-color: #9248e1;
-    background-image: linear-gradient(180deg, #9B54E8 0%, #7126C1 100%);
-    width: 95%;
-    font-size: 16px;
-    margin-top: 30px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px
+	display: inline-block;
+	color: #fff !important;
+	background: linear-gradient(-47deg, #31d7e8 0%, #2846dc 100%);
+	padding: 15px 0;
+	background-color: #9248e1;
+	background-image: linear-gradient(180deg, #9B54E8 0%, #7126C1 100%);
+	width: 95%;
+	font-size: 16px;
+	margin-top: 30px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px
 }
 
 .animate-bottom {
-    position: relative;
-    animation: animatebottom .4s
+	position: relative;
+	animation: animatebottom .4s
 }
 
 .blink_me {
-    animation: blinker 1s linear infinite
+	animation: blinker 1s linear infinite
 }
 
 @keyframes blinker {
-    50% {
-        opacity: 0
-    }
+	50% {
+		opacity: 0
+	}
 }
 
 @keyframes animatebottom {
-    from {
-        bottom: -300px;
-        opacity: 0
-    }
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
 
-    to {
-        bottom: 0;
-        opacity: 1
-    }
+	to {
+		bottom: 0;
+		opacity: 1
+	}
 }
 
 .no-js #loader {
-    display: none
+	display: none
 }
 
 .js #loader {
-    display: block;
-    position: absolute;
-    left: 100px;
-    top: 0
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0
 }
 
 .se-pre-con {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(../img/loader.png) center no-repeat #15161a
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loader.png) center no-repeat #15161a
 }
 
 .modal-load {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-clip: padding-box;
-    outline: 0;
-    padding: 15px;
-    background: #FFF;
-    color: #000;
-    text-align: center;
-    margin: 0 auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 4px
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-clip: padding-box;
+	outline: 0;
+	padding: 15px;
+	background: #FFF;
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 4px
 }
 
 @media screen and (max-width: 720px) {
-    .modal-load {
-        width: 80%
-    }
+	.modal-load {
+		width: 80%
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .modal-load {
-        width: 60%
-    }
+	.modal-load {
+		width: 60%
+	}
 }
 
 .modal-load p {
-    margin: 0;
-    padding: 5px 0;
-    font-size: 15px
+	margin: 0;
+	padding: 5px 0;
+	font-size: 15px
 }
 
 .modal-load p:first-child {
-    font-size: 18px;
-    font-weight: 600
+	font-size: 18px;
+	font-weight: 600
 }
