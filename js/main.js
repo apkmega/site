@@ -27,10 +27,10 @@ $(document).ready(function() {
 		}
 	}), $(".searchInput").on("keyup", function() {
 		var t = $(this).val().toLowerCase();
-		$(".AppContainer").filter(function() {
+		$(".searchApp").filter(function() {
 			$(".app-section-content").css("height", $(".app-section-content").height()), $(this).toggle($(this).text().toLowerCase().indexOf(t) > -1)
 		})
-	}), $(".AppContainer").click(function() {
+	}), $(".searchApp").click(function() {
 		$(".avatar-modal img").attr("src", $(this).find(".app-img").attr("src")), $(".name-modal").html($(this).attr("data-app")), $(".name-modal").attr("data-name", $(this).attr("data-name")), $("#appModal").modal({
 			backdrop: "static",
 			keyboard: !1
