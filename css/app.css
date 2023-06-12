@@ -203,7 +203,7 @@ a:focus {
 }
 
 .modal-btn {
-	padding-bottom: 30%
+	padding-bottom: 20%
 }
 
 .modal-btn a {
@@ -219,6 +219,53 @@ a:focus {
     font-size: 15px;
     margin-top: 30px;
     border-radius: 10px;
+}
+
+.comments-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.comment {
+  line-height: 1.5;
+  min-height: 2.25em;
+  list-style: none;
+}
+
+.left {
+  float: left !important;
+}
+
+.avatar {
+  border-radius: 1.5em;
+  display: block;
+  float: left;
+  height: 2.5em;
+  margin-right: .75em;
+  width: 2.5em;
+}
+
+.comment-body {
+  background-color: #181824;
+  margin-left: 3.25em;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.comment-meta {
+  margin-left: auto;
+  text-align: left;
+}
+
+.timestamp {
+  font-size: small;
+  color: #4e5c69;
+}
+
+.comment-excerpt {
+  line-height: 1.5;
+  margin-left: auto;
+  text-align: left;
 }
 
 .animate-bottom {
