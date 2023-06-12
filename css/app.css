@@ -257,16 +257,12 @@ a:focus {
 }
 
 .modal-load {
-     position: relative;
     display: flex;
     flex-direction: column;
     position: relative;
     background-color: #181824;
-    background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.3125rem;
-    margin-bottom: 10px;
-    width: 80%;
     pointer-events: auto;
     background-clip: padding-box;
     outline: 0;
