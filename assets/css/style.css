@@ -158,10 +158,13 @@ header {
 }
 
 .header-subtitle {
-	margin: 0;
-	font-size: 1.2em;
-	color: #fff;
-	font-weight: 300;
+    margin: 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
 }
 
 .featured-section {
