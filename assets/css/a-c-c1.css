@@ -1,0 +1,46 @@
+::selection {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+	color: #fff;
+}
+::-moz-selection {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+	color: #fff;
+}
+header {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+}
+.section-title-wrapper h3:before {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+}
+.search-input-wrapper span.material-icons-two-tone {
+	color: #c27634;
+}
+.listing-item-by-val {
+	color: #c27634;
+}
+#app-step-by {
+    color: #c27634;
+}
+.step-loader .ball-scale-multiple>div {
+	background-color: #c27634;
+}
+#s-p-c-title {
+	color: #c27634;
+}
+.s-p-c-btn {
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+	color: #fff;
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+}
+#proccessing-outer-wrapper {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+}
+.proccessing-loadbar div {
+	background: linear-gradient(rgb(219, 144, 69) 0%, rgb(152, 75, 23) 100%);
+}
+.ball-scale-multiple>div {
+	background-color: #c27634;
+}
+.d-b-notice-wrapper span.material-icons-two-tone {
+	filter: invert(26%) sepia(100%) saturate(2331%) hue-rotate(221deg) brightness(105%) contrast(101%);
+}
