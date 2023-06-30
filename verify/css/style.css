@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,1000;1,800&display=swap');
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Mulish', sans-serif;
+}
+
+.fKqImm {
+    flex-direction: column;
+}
+
+.VjtFer {
+    background-color: rgb(255 255 255 / 3%);
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 9px 2px #1818181a;
+    display: flex;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 100%;
+}
+
+.GLHiwc {
+    border-radius: 50px;
+    width: 70px;
+}
+
+.RgJkbD {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.YfmKWI {
+    background-color: rgb(255 255 255 / 5%);
+    width: 600px;
+    border-radius: 8px;
+    height: 700px;
+    padding: 10px;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 100%;
+}
+
+.MTqbTA {
+    color: #fff;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+}
+
+.iUnRNX {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: auto;
+    line-height: 25px;
+    max-width: 400px;
+    text-transform: uppercase;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .YfmKWI {
+        width: 85%;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .iUnRNX {
+        font-size: 11.5px;
+    }
+
+    .VjtFer {
+        width: 85%;
+        top: 45%;
+        box-shadow: 1px 1px 20px 6px #1818181a;
+    }
+}
